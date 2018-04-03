@@ -5,6 +5,8 @@ Example for the usage of PyXB and Django.
 
 If you are new to the subject of XSD, WADL and XML, I suggest reading the blog: [Thomas Nurkiewic, 2012](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
+"In principle WADL is similar to WSDL, but the structure of the language is much different. Whilst WSDL defines a flat list of messages and operations either consuming or producing some of them, WADL emphasizes the hierarchical nature of RESTful web services. In REST, the primary artifact is the resource. Each resource (noun) is represented as an URI. Every resource can define both CRUD operations (verbs, implemented as HTTP methods) and nested resources. The nested resource has a strong relationship with a parent resource, typically representing an ownership."
+
 XSD to WADL
 -----------
 
