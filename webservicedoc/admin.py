@@ -1,6 +1,6 @@
 from django.contrib import admin
-from forms import WebservicedocAdminForm
-from models import Webservicedoc
+from .forms import WebservicedocAdminForm
+from .models import Webservicedoc
 
 
 class WebservicedocAdmin(admin.ModelAdmin):
